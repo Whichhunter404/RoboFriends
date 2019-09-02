@@ -3,7 +3,7 @@ const Searchbox = ({searchfield,searchchange})=>{
     return(
     <div>
         <input type='search'
-        placeholder='input robots'
+        placeholder='Search robots...'
                style={{padding:'10px',border: '3px solid black'}}
         onChange={searchchange}
         />
